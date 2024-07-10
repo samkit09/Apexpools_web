@@ -1,0 +1,34 @@
+/* ######################## Navbar ####################### */
+.logo {
+    margin-left: 15%;
+}
+
+.nav-ul {
+    margin-right: 10%;
+}
+
+/* ######################## Body ####################### */
+
+.bg {
+    /* background-image: url('../assets/pool-bg-h.png'); */
+    background-size:contain; /*Adjust the size of the background image*/
+    /* background-position: center; Center the background image */
+    max-height: 50%; /* Set the height of the div */
+    width: 100%; /* Set the width of the div */
+    position: relative;
+    overflow: hidden;
+}
+
+.bg>video{
+    width: 100%;
+    height: calc(99vh);
+    object-fit: cover;
+}
+
+.bg img {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 9;
+}
