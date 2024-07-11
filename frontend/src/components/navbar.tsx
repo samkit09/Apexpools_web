@@ -3,6 +3,7 @@ import logo from '../assets/Apexlogo.png';
 function Navbar() {
 	return (
 		<>
+			{/* hello */}
 			<nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light opacity-75">
 				<a
 					className="navbar-brand"
